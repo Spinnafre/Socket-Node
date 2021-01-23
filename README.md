@@ -5,7 +5,7 @@
 Socket-Node é um projeto Open Source desenvolvido  utilizando as tecnologias Javascript, Node e Socket.io.
 
 </h3>
-#### **Tecnologias**
+Tecnologias
 
   - **[Express][express]**
   - **[EJS][EJS]**
