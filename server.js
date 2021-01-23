@@ -8,8 +8,8 @@ const io=require('socket.io')(server)
 app.use(express.static(path.join(__dirname,'public')))
 
 app.set('views',path.join(__dirname,'public'))
-// Use esse método para engines não fornecidas ou usar uma extensao diferent 
-// Para arquivos HTML irá chamar a função ejs.renderFile, para rendelizálos
+// Use esse método para engines não fornecidas ou usar uma extensao diferente 
+// Para arquivos HTML irá chamar a função ejs.renderFile, para renderizá-los
 app.engine('html',require('ejs').renderFile)
 // Aviso ao express qual template irei usar, o template irá se responsabilizar por arquivos .html
 app.set('view engine','html')
